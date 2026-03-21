@@ -10,13 +10,8 @@
 ![Model Size](https://img.shields.io/badge/Edge_Model-99.5_KB-00C853)
 ![YOLO](https://img.shields.io/badge/Baseline-YOLO11s-00BFFF)
 
-<p align="center">
-  <img src="docs/app_head_rice1.png" width="200" alt="Head Rice 89.2%"/>
-  <img src="docs/app_broken_rice1.png" width="200" alt="Broken Rice 80.4%"/>
-  <img src="docs/app_foreign_object1.png" width="200" alt="Foreign Object 95.1%"/>
-  <img src="docs/app_chalky_rice1.png" width="200" alt="Chalky Rice 77.2%"/>
-</p>
-<p align="center"><em>Flutter mobile app running TinyRiceNet TFLite INT8 — all inference on-device, zero cloud dependency</em></p>
+<img width="682" height="310" alt="image" src="https://github.com/user-attachments/assets/186bc784-e823-4064-8f10-5e69cd2cd998" />
+
 
 ---
 
@@ -76,7 +71,7 @@ This table traces every step from baseline to deployment, showing exactly where 
 │                     TRAINING PIPELINE (Colab GPU)                    │
 │                                                                      │
 │  ┌─────────────┐    ┌────────────────┐    ┌──────────────────────┐   │
-│  │ 225 Annotated│───▶│ YOLO11s        │───▶│ Crop 4,380 individual│ |  
+│  │ 224 Annotated│───▶│ YOLO11s        │───▶│ Crop 4,380 individual│ |  
 │  │ Rice Images  │    │ Object Detector│    │ grain images         │  │
 │  │ (Roboflow)   │    │ (18.3 MB)      │    │ by class             │  │
 │  └─────────────┘    └────────────────┘    └──────────┬───────────┘   │
@@ -84,7 +79,7 @@ This table traces every step from baseline to deployment, showing exactly where 
 │  ┌─────────────┐    ┌────────────────┐               │               │
 │  │ TinyRiceNet │◀───│ MobileNetV3    │◀──────────────┘              │
 │  │ Student     │ KD │ Teacher        │  Train on grain crops         │
-│  │ (68K params)│◀───│ (96.48% acc)   │                              |
+│  │ (68K params)│◀───│ (96.48% acc)   │                               │
 │  └──────┬──────┘    └────────────────┘                               │
 │         │                                                            │
 │         ▼                                                            │
