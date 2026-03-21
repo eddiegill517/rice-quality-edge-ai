@@ -1,0 +1,63 @@
+{
+  "models": [
+    {
+      "name": "YOLO11s (Baseline Detector)",
+      "type": "Object Detection",
+      "format": "PyTorch",
+      "size_mb": 18.3,
+      "accuracy": "98.3% mAP@50",
+      "inference_ms": 16.7,
+      "hardware": "Tesla T4 GPU"
+    },
+    {
+      "name": "YOLO11n (Edge Detector)",
+      "type": "Object Detection",
+      "format": "PyTorch",
+      "size_mb": 5.23,
+      "accuracy": "96.7% mAP@50",
+      "inference_ms": 13.5,
+      "hardware": "Tesla T4 GPU"
+    },
+    {
+      "name": "MobileNetV3-Small (Teacher)",
+      "type": "Grain Classifier",
+      "format": "PyTorch",
+      "size_mb": 4.36,
+      "accuracy": "96.48%",
+      "inference_ms": 6.13,
+      "hardware": "Colab CPU"
+    },
+    {
+      "name": "TinyRiceNet (ONNX FP32)",
+      "type": "Grain Classifier",
+      "format": "ONNX",
+      "size_kb": 281.1,
+      "size_mb": 0.275,
+      "accuracy": "92.73%",
+      "inference_ms": 1.23,
+      "hardware": "Colab CPU"
+    },
+    {
+      "name": "TinyRiceNet (TFLite INT8)",
+      "type": "Grain Classifier",
+      "format": "TFLite",
+      "size_kb": 99.5,
+      "size_mb": 0.097,
+      "accuracy": "92.95%",
+      "inference_ms": 3.57,
+      "hardware": "Colab CPU"
+    }
+  ],
+  "class_names": [
+    "broken_rice",
+    "chalky_rice",
+    "foreign_object",
+    "head_rice",
+    "unhulled_rice"
+  ],
+  "dataset_stats": {
+    "total_detection_annotations": 6781,
+    "total_grain_crops": 4380,
+    "num_classes": 5
+  }
+}
