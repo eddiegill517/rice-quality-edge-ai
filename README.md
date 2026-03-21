@@ -360,21 +360,22 @@ Built with **Flutter** using the `tflite_flutter` package. The app loads the Tin
 - Inference time display
 - Zero network dependency — works fully offline
 
-<p align="center">
-  <img src="docs/app_head_rice1.png" width="180"/>
-  <img src="docs/app_head_rice1.1.png" width="180"/>
-  <img src="docs/app_foreign_object1.png" width="180"/>
-  <img src="docs/app_foreign_object1.1.png" width="180"/>
-</p>
-<p align="center"><em>Left: Head Rice (89.2%) — Right: Foreign Object (95.1%)</em></p>
-
-<p align="center">
-  <img src="docs/app_broken_rice1.png" width="180"/>
-  <img src="docs/app_broken_rice1.1.png" width="180"/>
-  <img src="docs/app_unhulled_rice1.png" width="180"/>
-  <img src="docs/app_unhulled_rice1.1.png" width="180"/>
-</p>
-<p align="center"><em>Left: Broken Rice (80.4%) — Right: Unhulled Rice (78.1%)</em></p>
+<table align="center">
+  <tr>
+    <td align="center"><img src="docs/app_head_rice1.png" width="150"/><br><img src="docs/app_head_rice1.1.png" width="150"/></td>
+    <td align="center"><img src="docs/app_broken_rice1.png" width="150"/><br><img src="docs/app_broken_rice1.1.png" width="150"/></td>
+    <td align="center"><img src="docs/app_foreign_object1.png" width="150"/><br><img src="docs/app_foreign_object1.1.png" width="150"/></td>
+    <td align="center"><img src="docs/app_chalky_rice1.png" width="150"/><br><img src="docs/app_chalky_rice1.1.png" width="150"/></td>
+    <td align="center"><img src="docs/app_unhulled_rice1.png" width="150"/><br><img src="docs/app_unhulled_rice1.1.png" width="150"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Head Rice</b><br>89.2%</td>
+    <td align="center"><b>Broken Rice</b><br>80.4%</td>
+    <td align="center"><b>Foreign Object</b><br>95.1%</td>
+    <td align="center"><b>Chalky Rice</b><br>77.2%</td>
+    <td align="center"><b>Unhulled Rice</b><br>78.1%</td>
+  </tr>
+</table>
 
 ### Running the app
 
