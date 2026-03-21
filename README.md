@@ -10,8 +10,21 @@
 ![Model Size](https://img.shields.io/badge/Edge_Model-99.5_KB-00C853)
 ![YOLO](https://img.shields.io/badge/Baseline-YOLO11s-00BFFF)
 
-<img width="682" height="310" alt="image" src="https://github.com/user-attachments/assets/186bc784-e823-4064-8f10-5e69cd2cd998" />
+<p align="center">
+  <img src="docs/app_head_rice1.png" width="160"/>
+  <img src="docs/app_head_rice1.1.png" width="160"/>
+  <img src="docs/app_foreign_object1.png" width="160"/>
+  <img src="docs/app_foreign_object1.1.png" width="160"/>
+</p>
+<p align="center"><em>Left pair: Head Rice (89.2%) — Right pair: Foreign Object (95.1%)</em></p>
 
+<p align="center">
+  <img src="docs/app_broken_rice1.png" width="160"/>
+  <img src="docs/app_broken_rice1.1.png" width="160"/>
+  <img src="docs/app_unhulled_rice1.png" width="160"/>
+  <img src="docs/app_unhulled_rice1.1.png" width="160"/>
+</p>
+<p align="center"><em>Left pair: Broken Rice (80.4%) — Right pair: Unhulled Rice (78.1%)</em></p>
 
 ---
 
